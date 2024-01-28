@@ -132,14 +132,14 @@ const Header = () => {
               </NavLink>
             </li>
 
-            <li className={`nav-item ${styles["nav-item"]}`}>
+            {/* <li className={`nav-item ${styles["nav-item"]}`}>
               <NavLink
                 to={"/about"}
                 className={`nav-link ${styles["nav-link"]}`}
               >
                 <p>About</p>
               </NavLink>
-            </li>
+            </li> */}
 
             {!token ? (
               <React.Fragment>
