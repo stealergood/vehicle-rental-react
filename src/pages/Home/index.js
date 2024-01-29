@@ -256,9 +256,9 @@ const Home = () => {
         </React.Fragment>
       )}
 
-      <section style={{ marginBottom: 104 }}>
+      {/* <section style={{ marginBottom: 104 }}>
         <Testimonial />
-      </section>
+      </section> */}
     </Main>
   );
 };
